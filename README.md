@@ -16,6 +16,8 @@ To fine-tune H3MAE on a dataset, run the following command:
 ```Fine-tune H3MAE
 python main.py  --fine_tune True  --pretrain_dic <pretrain_dic> --config_path <config_path> --selected_dataset <dataset_name> --multi_rate_groups <groups>
 ```
+The experimental logs and  models are saved in `experiments_logs&models/` folder.
+
 ### Compared temporal neural networks 
 Run updown_train.py
 
